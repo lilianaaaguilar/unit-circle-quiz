@@ -1,13 +1,6 @@
 body {
   background-color: lightpink;
 }
-.questions {
-  background-color: mistyrose;
-  width: 300px;
-  border: 15px solid thistle;
-  padding: 50px;
-  margin: auto;
-}
 h1 {
 	text-align: center;
 }
