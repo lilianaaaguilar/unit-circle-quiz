@@ -3,8 +3,8 @@
 <head>  
 	<title>Unit Circle Quiz</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-	<script src="myscript.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <script src="myScript.js"></script>
 </head>
 <body>
 
@@ -14,12 +14,14 @@
 	<h3>Question 1:</h3>
 	<p>Which is correct?</p>
 	<form>
-		<input type="radio" id="(sin, cos)" class="incorrect">
-		<label for="(sin, cos)">(sin, cos)</label>
-		<input type="radio" id="(cos, sin)" class="correct">
-		<label for="(cos, sin)">(cos, sin)</label>
-		<input type="button" value="Submit answer" class="submit">
+		<input type="radio" id="sinandcos" name="q1" class="incorrect"  >
+		<label for="sinandcos">(sin, cos)</label><br>
+		<input type="radio" id="cosandsin" name="q1" class="correct">
+		<label for="cosandsin">(cos, sin)</label>
+		<br><br>
+		<input type="button" value="Submit answer" class="check">
 	</form>
+	<p class="feedback"></p>
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$(".submit").click(function(){
-	$(this).siblings().filter(".correct").val("Correct!")
-	$(this).siblings().filter(".incorrect").val("Try again!")
+	$(".check").click(function(){
+	$(this).siblings().filter(".correct").
+	//$(this).siblings().not("correct").val("Try again!");
 	});
 });
