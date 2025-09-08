@@ -1,9 +1,16 @@
 body {
   background-color: lightpink;
+  text-align:center;
 }
 h1 {
 	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-color: hotpink; 
+	font-weight: bold;
 }
-h2{
+h2 {
 	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-style: double;
+	text-decoration-color: hotpink;
 }
